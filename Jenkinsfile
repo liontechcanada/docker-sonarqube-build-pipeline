@@ -4,7 +4,7 @@ pipeline {
 
         maven 'maven3.9.9'
     }
-    agent any
+    agent 'master'
 
     environment {
         registry = "267509235741.dkr.ecr.ca-central-1.amazonaws.com/class30-demo"
